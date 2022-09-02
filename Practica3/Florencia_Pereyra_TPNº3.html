@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: lightgray ; width: 500px; height: 850px; border:2px solid yellow;">
+
+        <form>
+
+            <h3>Dejanos tus datos y nos ponemos en contacto con vos</h3>
+
+               <label for="fname">Nombre:</label>
+               <input type="text" id="fname" name="fname" value="Tu Nombre"><br>
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email" value="usuario@correo.com"><br><br>
+
+            <h3>De que departamento sos?</h3>
+
+                <label for="departamentos">Selecciona una opcion:</label>
+
+                    <select id="departamentos" name="departamentos">
+                        <option value="capital">Capital</option>
+                        <option value="godoycruz">Godoy Cruz</option>
+                        <option value="guaymallen">Guaymallen</option>
+                        <option value="lasheras">Las Heras</option>
+                    </select><br><br>
+
+            <h3>Que te parecio la iluminacion del hambiente? </h3>
+
+                <input type="checkbox" id="muyacorde" name="iluminacion" value="Muy Acorde">
+                <label for="muyacorde">Muy Acorde</label><br>
+                <input type="checkbox" id="mejorar" name="iluminacion" value="Mejorar">
+                <label for="mejorar">Buena,pero podria mejorar</label><br>
+                <input type="checkbox" id="mala" name="iluminacion" value="mala">
+                <label for="mala">Mala</label><br><br>
+           
+
+            <h3>Cuando nos visitaste?</h3>
+
+                <input type="date" id="visit day" name="visit day"><br><br>
+
+            <h3>Recomiendas el lugar?</h3>
+
+                <input type="radio" id="si" name="recomendacion" value="Si">
+                <label for="Si">Si</label><br>
+                <input type="radio" id="no" name="recomendacion" value="No">
+                <label for="No">No</label><br><br>
+
+            <h3>Porque?</h3>
+
+                <textarea name="message" rows="10" cols="40"></textarea><br><br>
+
+                <input type="submit" value="Submit"style="background-color:orange ; width: 150px; height=35px; border-radius: 5px;" >
+                <input type="reset" style="background-color:orange; width: 150px; height: 22px;">
+
+        </form>
+    </div>
+</body>
+</html>
